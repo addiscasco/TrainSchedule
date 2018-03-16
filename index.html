@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Train Homework</title>
+</head>
+<body>
+    <div id="container">
+        <div id="trainSchedule">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Current Train Schedule</div>
+                <div class="panel-body">
+                </div>
+            
+                <!-- Table -->
+                <table class="table">
+                    <tr>
+                        <th>Train Name</th>
+                        <th>Destination</th>
+                        <th>Frequency (min)</th>
+                        <th>Next Arrival</th>
+                        <th>Minutes Away</th>
+                    </tr>
+                </table>
+            </div>
+        </div> <!-- close trainschedule div-->
+        <br>
+        <div id="submitNewTrain">
+            <h3>Add Train</h3>
+            <input type="text" class="form-control" placeholder="Train Name">
+            <br>
+            <input type="text" class="form-control" placeholder="Destination">
+            <br>
+            <input type="text" class="form-control" placeholder="First Train Time (HH:mm-military time">
+            <br>
+            <input type="text" class="form-control" placeholder="Frequency (min)">
+            <br>
+            <button type="button" class="btn btn-primary">Submit</button>
+
+        </div>
+    </div>
+</body>
+</html>
